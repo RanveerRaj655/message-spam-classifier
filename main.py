@@ -4,6 +4,7 @@ import pickle as pkl
 import string
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
